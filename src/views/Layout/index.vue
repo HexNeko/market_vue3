@@ -18,6 +18,9 @@ onMounted(() => {
     <LayoutFixed />
     <LayoutNav />
     <LayoutHeader />
+    <!-- 添加Key 派活服用机制 -->
+    <!-- 所有组件都发送 浪费资源 -->
+    <!-- <RouterView :key="$route.fullPath" /> -->
     <RouterView />
     <LayoutFooter />
 </template>
