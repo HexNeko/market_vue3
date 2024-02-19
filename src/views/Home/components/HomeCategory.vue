@@ -1,11 +1,3 @@
-
-import { getCategory } from '@/apis/testAPI';
-
-import { useCategoryStore } from '@/stores/category';
-
-import { useCategoryStore } from '@/stores/category';
-
-import { useCategoryStore } from '@/stores/category';
 <script setup>
 import { useCategoryStore } from '@/stores/category'
 const categoryStore = useCategoryStore()
