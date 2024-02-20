@@ -2,7 +2,7 @@
 import { getCategoryAPI } from '@/apis/layout'
 import { onMounted } from 'vue'
 import { ref } from 'vue'
-import { useCategoryStore } from '@/stores/category'
+import { useCategoryStore } from '@/stores/categoryStore'
 import HeaderCart from './HeaderCart.vue'
 
 //使用Pinia中的数据

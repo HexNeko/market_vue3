@@ -2,7 +2,7 @@
 import { getCategoryAPI } from '@/apis/layout';
 import { ref, onMounted } from 'vue'
 import { useScroll } from '@vueuse/core'
-import { useCategoryStore } from '@/stores/category'
+import { useCategoryStore } from '@/stores/categoryStore'
 
 
 const {y} = useScroll(window)

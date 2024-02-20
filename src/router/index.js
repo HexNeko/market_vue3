@@ -8,6 +8,8 @@ import Home from "@/views/Home/index.vue"
 import Category from "@/views/Category/index.vue"
 import SubCategory from "@/views/SubCategory/index.vue"
 import Detail from '@/views/Detail/index.vue'
+import CartList from '@/views/CartList/index.vue'
+import Checkout from '@/views/Checkout/index.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +34,14 @@ const router = createRouter({
         {
           path: 'detail/:id',
           component: Detail
+        },
+        {
+          path: 'cartlist',
+          component: CartList
+        },
+        {
+          path: 'checkout',
+          component: Checkout
         }
       ]
     },
@@ -43,7 +53,7 @@ const router = createRouter({
   //路由滚动行为定制
   scrollBehavior() {
     return {
-      top:0
+      top: 0
     }
   }
 })
